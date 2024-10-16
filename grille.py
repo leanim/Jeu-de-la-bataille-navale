@@ -1,5 +1,5 @@
-#Création d'une grille de jeu 10x10
-grille= [
+#Création d'une grille de jeu 10x10 pour le joueur 1
+grille1= [
     ["    "," A  "," B  "," C  "," D  "," E  "," F  "," G  "," H  "," I  "," J  "],
     ["  1 ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    "],
     ["  2 ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    "],
@@ -14,9 +14,34 @@ grille= [
     ]
 
 #Afficher la grille du jeu
-def Afficherlagrille (grille):
-    print ("+" +"----+"*len(grille)) 
-    for ligne in grille:
+print ("joueur 1")
+def Afficherlagrille (grille1):
+    print ("+" +"----+"*len(grille1)) 
+    for ligne in grille1:
      print ("|"+ "|".join(ligne) + "|") 
-     print ("+"+ "----+"*len(grille)) 
-Afficherlagrille (grille)   
+     print ("+"+ "----+"*len(grille1)) 
+Afficherlagrille (grille1)   
+
+#Création d'une grille de jeu 10x10 pour le joueur 2
+grille2= [
+    ["    "," A  "," B  "," C  "," D  "," E  "," F  "," G  "," H  "," I  "," J  "],
+    ["  1 ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    "],
+    ["  2 ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    "],
+    ["  3 ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    "],
+    ["  4 ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    "],
+    ["  5 ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    "],
+    ["  6 ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    "],
+    ["  7 ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    "],
+    ["  8 ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    "],
+    ["  9 ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    "],
+    [" 10 ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    "]
+    ]
+
+#Afficher la grille du jeu
+print ("joueur 2")
+def Afficherlagrille (grille2):
+    print ("+" +"----+"*len(grille2)) 
+    for ligne in grille2:
+     print ("|"+ "|".join(ligne) + "|") 
+     print ("+"+ "----+"*len(grille2)) 
+Afficherlagrille (grille2)
