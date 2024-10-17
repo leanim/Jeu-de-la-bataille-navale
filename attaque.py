@@ -9,7 +9,7 @@ def attaquer(grilleennemi):
             print("Touché")
             grilleennemi[ligne][colonne]="X"
         else:
-            print("Raté")
+            print("Coulé")
             grilleennemi[colonne][ligne]="T"
             
 #Attaque du joueur
