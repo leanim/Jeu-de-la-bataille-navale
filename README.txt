@@ -1,4 +1,4 @@
-jeu de la bataille navale
+Jeu de la bataille navale
 
 Rappel des règles:
 
@@ -11,6 +11,13 @@ Rappel des règles:
    °Torpilleur (2 cases)
 ﻿﻿- Chaque joueur attaque une case de la grille adverse à tour de rôle.
 
-
 Objectif : Couler tous les bateaux de l'adversaire en touchant toutes les cases de chaque bateau.
+
+
+Installation:
+
+- Ouvrez un terminal:
+   °git clone: https://github.com/leanim/Jeu-de-la-bataille-navale.git
+   °cd Jeu-de-la-bataille-navale
+   °python bataille_navale.py
 
